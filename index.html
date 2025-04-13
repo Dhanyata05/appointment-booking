@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Appointment Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Appointment Booking</h1>
+
+    <label for="date">Select a date:</label>
+    <input type="date" id="date" />
+
+    <h3>Available Time Slots:</h3>
+    <div id="time-slots" class="slots">
+      <button>10:00 AM</button>
+      <button>11:00 AM</button>
+      <button>12:00 PM</button>
+      <button>2:00 PM</button>
+      <button>3:00 PM</button>
+    </div>
+
+    <button id="book-btn">Book Appointment</button>
+    <p id="confirmation" class="confirmation"></p>
+
+    <button id="toggle-dark" class="dark-toggle">Toggle Dark Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
